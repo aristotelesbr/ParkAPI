@@ -6,7 +6,7 @@ namespace ParkyAPI.Models.Repository.IRepository
     {
         ICollection<NationalPark> GetNationalParks();
 
-        NationalPark GetNationalPark(int nationalPark);
+        NationalPark GetNationalPark(int nationalParkId);
 
         bool NationalParkExists(string name);
 
