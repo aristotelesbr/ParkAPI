@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace ParkyAPI.Models.Repository.IRepository
 {
-    public interface INationalRepository
+    public interface INationalParkRepository
     {
         ICollection<NationalPark> GetNationalParks();
 
